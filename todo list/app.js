@@ -47,7 +47,7 @@ function deleteCheck(e) {
 		todo.remove();
 	}
 
-	// mark check as compoleted
+	// mark check as completed
 	if (item.classList[0] === "completed-button") {
 		const todo = item.parentElement;
 		todo.classList.toggle("done");
